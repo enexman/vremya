@@ -73,6 +73,7 @@ img {
     justify-content: space-between;
     margin-top: 25px; }
   .main-navigation__item a {
+    color: #fefeff;
     text-decoration: none; }
     .main-navigation__item a:visited {
       color: #fefeff; }
@@ -205,7 +206,8 @@ img {
   padding-bottom: 56px;
   letter-spacing: 1.1px;
   line-height: 1.0;
-  text-decoration: none; }
+  text-decoration: none;
+  color: #fefeff; }
   .user:visited {
     color: #fefeff; }
   .user:before {
@@ -227,7 +229,8 @@ img {
   padding-left: 88px;
   letter-spacing: 1.1px;
   line-height: 1.0;
-  text-decoration: none; }
+  text-decoration: none;
+  color: #fefeff; }
   .bucket:visited {
     color: #fefeff; }
   .bucket:before {
@@ -267,6 +270,7 @@ img {
     background-color: #fff;
     box-shadow: rgba(98, 20, 28, 0.7) 0 0 70px 0;
     margin-right: 25px;
+    color: #911526;
     text-decoration: none; }
     .content__item:visited {
       color: #911526; }
