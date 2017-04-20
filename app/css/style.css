@@ -12,7 +12,8 @@ img {
   height: auto; }
 
 .header {
-  background-image: url("./../img/fon-top.jpg");
+  position: relative;
+  background: url("./../img/fon-top.jpg");
   height: 608px; }
   .header__wrap {
     position: relative;
@@ -270,7 +271,9 @@ img {
     .content__item:visited {
       color: #911526; }
     .content__item--big .content__item-title {
-      padding: 48px 0; }
+      padding: 48px 0;
+      padding-top: 51px;
+      padding-bottom: 45px; }
     .content__item--big-1 .content__item-title {
       background-image: url("./../img/kv-1.jpg"); }
     .content__item--big-2 .content__item-title {
@@ -282,6 +285,7 @@ img {
   .content__item-title {
     padding: 38px 0;
     font-size: 18px;
+    font-weight: 800;
     background-image: url("./../img/category-bg.jpg"); }
 
 .author {
@@ -315,7 +319,7 @@ img {
 
 @keyframes animation-title {
   0% {
-    transform: translateX(70px);
+    transform: translateY(70px);
     opacity: 0; }
   100% {
     transform: translateX(0);

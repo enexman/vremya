@@ -25,6 +25,8 @@
 
         &--big .content__item-title {
             padding: 48px 0;
+            padding-top: 51px;
+            padding-bottom: 45px;
         }
 
         &--big-1 .content__item-title {
@@ -46,7 +48,7 @@
     &__item-title {
         padding: 38px 0;
         font-size: 18px;
-        //font-weight: 800;
+        font-weight: 800;
         background-image: url('./../img/category-bg.jpg');
     }
 }
