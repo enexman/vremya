@@ -3,17 +3,27 @@
     width: 120px;
     font-size: 28px;
     background-color: rgba(194, 53, 43, 0.6);
-    padding-top: 63px;
+    padding-top: 62px;
     padding-right: 44px;
     padding-left: 81px;
-    padding-bottom: 56px;
     letter-spacing: 1.1px;
     line-height: 1.0;
     text-decoration: none;
     color: #fefeff;
+    height: 110px;
+    transition: all 0.4s;
 
     &:visited {
         color: #fefeff;
+    }
+
+    &:hover {
+        background-color: rgba(194, 53, 43, 0.4);
+        box-shadow: inset rgba(255, 255, 255, 0.1) 0 0 70px 0;
+    }
+
+    &:active {
+        box-shadow: inset rgba(0, 0, 0, 0.1) 0 0 20px 0;
     }
 
     &:before {

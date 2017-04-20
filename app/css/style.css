@@ -20,7 +20,7 @@ img {
     display: flex;
     margin: 0 auto;
     width: 1200px;
-    margin-bottom: 34px; }
+    margin-bottom: 25px; }
     .header__wrap:before {
       content: '';
       height: 160px;
@@ -48,8 +48,9 @@ img {
     z-index: 1; }
 
 .logo {
-  margin-top: 32px;
-  margin-left: 9px; }
+  margin-left: 9px;
+  box-shadow: rgba(0, 0, 0, 0.7) 0 0 109px 0;
+  height: 182px; }
 
 .main-navigation {
   position: relative;
@@ -77,6 +78,10 @@ img {
     text-decoration: none; }
     .main-navigation__item a:visited {
       color: #fefeff; }
+    .main-navigation__item a:hover {
+      text-shadow: rgba(0, 0, 0, 0.5) 0 0 30px; }
+    .main-navigation__item a:active {
+      text-shadow: rgba(0, 0, 0, 0.5) 0 0 50px; }
   .main-navigation__item {
     position: relative;
     font-size: 20px; }
@@ -135,8 +140,9 @@ img {
       background-color: #c71c34; }
 
 .logo {
-  margin-top: 32px;
-  margin-left: 9px; }
+  margin-left: 9px;
+  box-shadow: rgba(0, 0, 0, 0.7) 0 0 109px 0;
+  height: 182px; }
 
 .about {
   text-align: center;
@@ -200,16 +206,22 @@ img {
   width: 120px;
   font-size: 28px;
   background-color: rgba(194, 53, 43, 0.6);
-  padding-top: 63px;
+  padding-top: 62px;
   padding-right: 44px;
   padding-left: 81px;
-  padding-bottom: 56px;
   letter-spacing: 1.1px;
   line-height: 1.0;
   text-decoration: none;
-  color: #fefeff; }
+  color: #fefeff;
+  height: 110px;
+  transition: all 0.4s; }
   .user:visited {
     color: #fefeff; }
+  .user:hover {
+    background-color: rgba(194, 53, 43, 0.4);
+    box-shadow: inset rgba(255, 255, 255, 0.1) 0 0 70px 0; }
+  .user:active {
+    box-shadow: inset rgba(0, 0, 0, 0.1) 0 0 20px 0; }
   .user:before {
     content: '';
     height: 27px;
@@ -230,9 +242,16 @@ img {
   letter-spacing: 1.1px;
   line-height: 1.0;
   text-decoration: none;
-  color: #fefeff; }
+  color: #fefeff;
+  height: 110px;
+  transition: all 0.4s; }
   .bucket:visited {
     color: #fefeff; }
+  .bucket:hover {
+    background-color: rgba(194, 53, 43, 0.7);
+    box-shadow: inset rgba(255, 255, 255, 0.1) 0 0 70px 0; }
+  .bucket:active {
+    box-shadow: inset rgba(0, 0, 0, 0.1) 0 0 20px 0; }
   .bucket:before {
     content: '';
     height: 27px;
