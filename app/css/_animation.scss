@@ -1,0 +1,46 @@
+.animation-img {
+    animation-name: animation;
+    animation-duration: 0.6s;
+}
+@keyframes animation {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.animation-title {
+    animation-name: animation-title;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes animation-title {
+    0% {
+        transform: translateX(70px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animation-text {
+    animation-name: animation-text;
+    animation-duration: 1.0s;
+    animation-fill-mode: both;
+}
+
+@keyframes animation-text {
+    0% {
+        transform: translateY(150px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

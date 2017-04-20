@@ -1,0 +1,26 @@
+.bucket {
+    position: relative;
+    width: 120px;
+    font-size: 28px;
+    background-color: rgba(194, 53, 43, 1);
+    padding-top: 62px;
+    padding-right: 37px;
+    padding-left: 88px;
+    letter-spacing: 1.1px;
+    line-height: 1.0;
+    text-decoration: none;
+
+    &:visited {
+        color: #fefeff;
+    }
+
+    &:before {
+        content: '';
+        height: 27px;
+        width: 33px;
+        left: 37px;
+        top: 65px;
+        position: absolute;
+        background-image: url('./../img/bucket.png');
+    }
+}

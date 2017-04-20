@@ -1,0 +1,60 @@
+.main-navigation {
+    position: relative;
+    margin: 20px auto;
+    width: 1200px;
+    border-top: 1px solid #f67568;
+    max-width: 810px;
+    z-index: 2;
+
+    &:before {
+        content: '';
+        height: 9px;
+        width: 13px;
+        left: 405px;
+        top: -5px;
+        position: absolute;
+        background-image: url('./../img/cub.png');
+    }
+
+    &__list {
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+
+    &__item a {
+        text-decoration: none;
+
+        &:visited {
+            color: #fefeff;
+        }
+    }
+
+    &__item {
+        position: relative;
+        font-size: 20px;
+
+        &--active {
+            font-weight: 700;
+        }
+
+        &:nth-child(1)::before {
+                content: '';
+                height: 0;
+                width: 0;
+                position: absolute;
+        }
+
+        &:before {
+            content: '';
+            height: 9px;
+            width: 13px;
+            left: -39px;
+            top: 8px;
+            position: absolute;
+            background-image: url('./../img/cub.png');
+        }
+    }
+}

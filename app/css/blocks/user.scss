@@ -1,0 +1,27 @@
+.user {
+    position: relative;
+    width: 120px;
+    font-size: 28px;
+    background-color: rgba(194, 53, 43, 0.6);
+    padding-top: 63px;
+    padding-right: 44px;
+    padding-left: 81px;
+    padding-bottom: 56px;
+    letter-spacing: 1.1px;
+    line-height: 1.0;
+    text-decoration: none;
+
+    &:visited {
+        color: #fefeff;
+    }
+
+    &:before {
+        content: '';
+        height: 27px;
+        width: 26px;
+        left: 36px;
+        top: 66px;
+        position: absolute;
+        background-image: url('./../img/user.png');
+    }
+}

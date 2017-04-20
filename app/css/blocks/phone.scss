@@ -1,0 +1,44 @@
+.phone {
+    position: relative;
+    width: 294px;
+    margin: 0;
+    margin-left: auto;
+
+    &__number {
+        position: relative;
+        font-size: 50px;
+        text-shadow: rgba(98, 20, 28, 0.55) 0 0 24px;
+        margin-top: 37px;
+        margin-bottom: 13px;
+        letter-spacing: 2.4px;
+        z-index: 5;
+
+        &:before {
+            content: '700-300';
+            letter-spacing: 2.4px;
+            height: 34px;
+            width: 340px;
+            left: 2px;
+            top: 2px;
+            color: rgba(255, 255, 255, 0.5);
+            position: absolute;
+            z-index: -1;
+        }
+    }
+
+    &__desc {
+        margin-top: 0;
+        font-size: 14px;
+    }
+
+    &:before {
+        content: '';
+        height: 60px;
+        width: 60px;
+        left: -77px;
+        top: 43px;
+        position: absolute;
+        background-image: url('./../img/phone.png');
+    }
+
+}

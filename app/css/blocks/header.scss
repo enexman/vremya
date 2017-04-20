@@ -1,0 +1,43 @@
+.header {
+    background-image: url('./../img/fon-top.jpg');
+    height: 608px;
+
+    &__wrap {
+        position: relative;
+        display: flex;
+        margin: 0 auto;
+        width: 1200px;
+        margin-bottom: 34px;
+
+        &:before {
+            content: '';
+            height: 160px;
+            width: 313px;
+            position: absolute;
+            background-image: url('./../img/leaf.png');
+            left: -69px;
+            top: 267px;
+            z-index: 5;
+        }
+    }
+}
+
+.header__pizza {
+    display: flex;
+    margin: 0 auto;
+    min-width: 1200px;
+    position: relative;
+
+    max-width: 1500px;
+
+    &:after {
+        content: '';
+        height: 389px;
+        width: 354px;
+        position: absolute;
+        background-image: url('./../img/pizza-slider.png');
+        right: 0;
+        top: 150px;
+        z-index: 1;
+    }
+}

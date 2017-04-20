@@ -1,0 +1,54 @@
+.slider {
+    position: relative;
+    box-shadow: rgba(98, 20, 28, 0.7) 0 0 70px 0;
+    background-color: white;
+
+    &__item {
+        display: none;
+
+        &--active {
+            display: flex;
+        }
+    }
+
+    &__item-info {
+        background-image: url('./../img/kv-3.jpg');
+        width: 448px;
+        color: #191a1e;
+    }
+
+    &__item-title {
+        font-size: 50px;
+        margin-left: 47px;
+        margin-top: 269px;
+        margin-bottom: 19px;
+        letter-spacing: 4.0px;
+        line-height: 1;
+    }
+
+    &__item-desc {
+        font-size: 14px;
+        width: 232px;
+        margin-left: 49px;
+    }
+
+    &__nav {
+        position: absolute;
+        right: 192px;
+        bottom: 12px;
+    }
+
+    &__btn {
+        float: left;
+        margin-right: 9px;
+        height: 9px;
+        width: 9px;
+        border-radius: 50%;
+        border: 1px solid #c71c34;
+        cursor: pointer;
+
+        &--active {
+            background-color: #c71c34;
+        }
+    }
+}
