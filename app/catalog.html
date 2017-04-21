@@ -24,8 +24,7 @@
             Пожалуйста<a href="http://browsehappy.com/">обновите</a> его.</p>
     <![endif]-->
     <header class="header">
-        <div class="header__pizza"></div>
-        <div class="header__wrap">
+        <div class="header__wrap-catalog">
             <div class="logo">
                 <a><img src="img/logo-2.jpg" alt="logo"></a>
             </div>
@@ -67,95 +66,189 @@
             </ul>
         </nav>
     </header>
-    <main class="main">
-        <div class="slider">
-            <div class="slider__item" id="first-block" >
-                <img src="./img/slide-1.jpg" alt="item">
-                <div class="slider__item-info">
-                    <p class="slider__item-title  animation-title">Закуски <br>в полцены</p>
-                    <p class="slider__item-desc  animation-text">Акция действует в будние дни с 10:00 - 20:00</p>
-                </div>
+    <main class="main-catalog">
+        <nav class="catalog-navigation">
+            <ul class="catalog-navigation__list">
+                <li class="catalog-navigation__item">
+                    <i></i>
+                    <a href="" class="catalog-navigation__link">Пицца</a>
+                </li>
+                <li class="catalog-navigation__item  catalog-navigation__item--active">
+                    <i></i>
+                    <a href="" class="catalog-navigation__link">Суши и роллы</a>
+                </li>
+                <li class="catalog-navigation__item">
+                    <i></i>
+                    <a href="" class="catalog-navigation__link">ВОК</a>
+                </li>
+                <li class="catalog-navigation__item">
+                    <i></i>
+                    <a href="" class="catalog-navigation__link">Паста</a>
+                </li>
+                <li class="catalog-navigation__item">
+                    <i></i>
+                    <a href="" class="catalog-navigation__link">Напитки</a>
+                </li>
+                <li class="catalog-navigation__item">
+                    <i></i>
+                    <a href="" class="catalog-navigation__link">Закуски</a>
+                </li>
+                <li class="catalog-navigation__item">
+                    <i></i>
+                    <a href="" class="catalog-navigation__link">Салаты</a>
+                </li>
+                <li class="catalog-navigation__item">
+                    <i></i>
+                    <a href="" class="catalog-navigation__link">Десерты</a>
+                </li>
+                <li class="catalog-navigation__item">
+                    <i></i>
+                    <a href="" class="catalog-navigation__link">Супы</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="catalog-content">
+            <ul class="catalog-content__menu">
+                <li class="catalog-content__menu-item">
+                    <a href="" class="catalog-content__menu-link">Суши</a>
+                </li>
+                <li class="catalog-content__menu-item  catalog-content__menu-item--active">
+                    <a href="" class="catalog-content__menu-link">Роллы 6, 8, 10 шт</a>
+                </li>
+                <li class="catalog-content__menu-item">
+                    <a href="" class="catalog-content__menu-link">Острые роллы</a>
+                </li>
+                <li class="catalog-content__menu-item">
+                    <a href="" class="catalog-content__menu-link">Запеченые роллы</a>
+                </li>
+                <li class="catalog-content__menu-item">
+                    <a href="" class="catalog-content__menu-link">Наборы (сеты)</a>
+                </li>
+                <li class="catalog-content__menu-item">
+                    <a href="" class="catalog-content__menu-link">Острые гунканы</a>
+                </li>
+                <li class="catalog-content__menu-item">
+                    <a href="" class="catalog-content__menu-link">Запеченые гунканы</a>
+                </li>
+                <li class="catalog-content__menu-item">
+                    <a href="" class="catalog-content__menu-link">Добавки</a>
+                </li>
+            </ul>
+            <div class="catalog-content__list">
+                <article class="catalog-content__item">
+                    <img src="./img/rolls/roll-2.jpg" alt="" class="catalog-content__img">
+                    <p class="catalog-content__title">Роллы с огурцом <br>(6 шт)</p>
+                    <p class="catalog-content__price">110 руб.</p>
+                    <p class="catalog-content__desc">Огурец, рис, кунжут</p>
+                    <a href="" class="catalog-content__order">В корзину</a>
+                </article>
+                <article class="catalog-content__item">
+                    <img src="./img/rolls/roll-1.jpg" alt="" class="catalog-content__img">
+                    <p class="catalog-content__title">Роллы с авокадо <br>(6 шт)</p>
+                    <p class="catalog-content__price">120 руб.</p>
+                    <p class="catalog-content__desc">Авокадо, рис, кунжут, нори</p>
+                    <a href="" class="catalog-content__order">В корзину</a>
+                    <!--<div class="catalog-content__calc">-->
+                        <!--<span class="catalog-content__calc-less"></span>-->
+                        <!--<span>2</span>-->
+                        <!--<span class="catalog-content__calc-more"></span>-->
+                    <!--</div>-->
+                </article>
+                <article class="catalog-content__item">
+                    <img src="./img/rolls/roll-3.jpg" alt="" class="catalog-content__img">
+                    <p class="catalog-content__title">Роллы с лососем <br>(6 шт)</p>
+                    <p class="catalog-content__price">170 руб.</p>
+                    <p class="catalog-content__desc">Лосось, рис, нори</p>
+                    <!--<a href="" class="catalog-content__order">В корзину</a>-->
+                    <div class="catalog-content__calc">
+                        <span class="catalog-content__calc-less"></span>
+                        <span>2</span>
+                        <span class="catalog-content__calc-more"></span>
+                    </div>
+                </article>
+                <article class="catalog-content__item">
+                    <img src="./img/rolls/roll-4.jpg" alt="" class="catalog-content__img">
+                    <p class="catalog-content__title">Роллы с тунцом<br>(6 шт)</p>
+                    <p class="catalog-content__price">110 руб.</p>
+                    <p class="catalog-content__desc">Тунец, рис, нори</p>
+                    <a href="" class="catalog-content__order">В корзину</a>
+                </article>
+                <article class="catalog-content__item">
+                    <img src="./img/rolls/roll-3.jpg" alt="" class="catalog-content__img">
+                    <p class="catalog-content__title">Роллы с огурцом <br>(6 шт)</p>
+                    <p class="catalog-content__price">110 руб.</p>
+                    <p class="catalog-content__desc">Огурец, рис, кунжут</p>
+                    <a href="" class="catalog-content__order">В корзину</a>
+                </article>
+                <article class="catalog-content__item">
+                    <img src="./img/rolls/roll-4.jpg" alt="" class="catalog-content__img">
+                    <p class="catalog-content__title">Роллы с огурцом <br>(6 шт)</p>
+                    <p class="catalog-content__price">110 руб.</p>
+                    <p class="catalog-content__desc">Огурец, рис, кунжут</p>
+                    <a href="" class="catalog-content__order">В корзину</a>
+                    <!--<div class="catalog-content__calc">-->
+                    <!--<span class="catalog-content__calc-less"></span>-->
+                    <!--<span>2</span>-->
+                    <!--<span class="catalog-content__calc-more"></span>-->
+                    <!--</div>-->
+                </article>
+                <article class="catalog-content__item">
+                    <img src="./img/rolls/roll-1.jpg" alt="" class="catalog-content__img">
+                    <p class="catalog-content__title">Роллы с огурцом <br>(6 шт)</p>
+                    <p class="catalog-content__price">110 руб.</p>
+                    <p class="catalog-content__desc">Огурец, рис, кунжут</p>
+                    <a href="" class="catalog-content__order">В корзину</a>
+                </article>
+                <article class="catalog-content__item">
+                    <img src="./img/rolls/roll-1.jpg" alt="" class="catalog-content__img">
+                    <p class="catalog-content__title">Роллы с огурцом <br>(6 шт)</p>
+                    <p class="catalog-content__price">110 руб.</p>
+                    <p class="catalog-content__desc">Огурец, рис, кунжут</p>
+                    <a href="" class="catalog-content__order">В корзину</a>
+                </article>
+                <article class="catalog-content__item">
+                    <img src="./img/rolls/roll-1.jpg" alt="" class="catalog-content__img">
+                    <p class="catalog-content__title">Роллы с огурцом <br>(6 шт)</p>
+                    <p class="catalog-content__price">110 руб.</p>
+                    <p class="catalog-content__desc">Огурец, рис, кунжут</p>
+                    <a href="" class="catalog-content__order">В корзину</a>
+                </article>
+                <article class="catalog-content__item">
+                    <img src="./img/rolls/roll-1.jpg" alt="" class="catalog-content__img">
+                    <p class="catalog-content__title">Роллы с огурцом <br>(6 шт)</p>
+                    <p class="catalog-content__price">110 руб.</p>
+                    <p class="catalog-content__desc">Огурец, рис, кунжут</p>
+                    <a href="" class="catalog-content__order">В корзину</a>
+                </article>
+                <article class="catalog-content__item">
+                    <img src="./img/rolls/roll-1.jpg" alt="" class="catalog-content__img">
+                    <p class="catalog-content__title">Роллы с огурцом <br>(6 шт)</p>
+                    <p class="catalog-content__price">110 руб.</p>
+                    <p class="catalog-content__desc">Огурец, рис, кунжут</p>
+                    <a href="" class="catalog-content__order">В корзину</a>
+                </article>
+                <article class="catalog-content__item">
+                    <img src="./img/rolls/roll-1.jpg" alt="" class="catalog-content__img">
+                    <p class="catalog-content__title">Роллы с огурцом <br>(6 шт)</p>
+                    <p class="catalog-content__price">110 руб.</p>
+                    <p class="catalog-content__desc">Огурец, рис, кунжут</p>
+                    <a href="" class="catalog-content__order">В корзину</a>
+                </article>
             </div>
-            <div class="slider__item" id="second-block" >
-                <img src="./img/slide-1.jpg" alt="item">
-                <div class="slider__item-info">
-                    <p class="slider__item-title  animation-title">Закуски <br>в полцены</p>
-                    <p class="slider__item-desc  animation-text">Акция действует в будние дни с 10:00 - 20:00</p>
-                </div>
-            </div>
-            <div class="slider__item" id="third-block" >
-                <img src="./img/slide-1.jpg" alt="item">
-                <div class="slider__item-info">
-                    <p class="slider__item-title  animation-title">Закуски <br>в полцены</p>
-                    <p class="slider__item-desc  animation-text">Акция действует в будние дни с 10:00 - 20:00</p>
-                </div>
-            </div>
-            <div class="slider__nav">
-                <div class="slider__btn  slider__btn--active" id="first-slide"></div>
-                <div class="slider__btn" id="second-slide"></div>
-                <div class="slider__btn" id="third-slide"></div>
-            </div>
-        </div>
-        <div class="content">
-            <a href="" class="content__item  content__item--big  content__item--big-1">
-                <img src="./img/rolls.jpg" alt="image" class="content__item-img">
-                <div class="content__item-title">Суши и роллы</div>
-            </a>
-            <a href="" class="content__item  content__item--big  content__item--big-2">
-                <img src="./img/pizza.jpg" alt="image" class="content__item-img">
-                <div class="content__item-title">Пицца</div>
-            </a>
-            <a href="" class="content__item">
-                <img src="./img/juice.jpg" alt="image" class="content__item-img">
-                <div class="content__item-title">Напитки</div>
-            </a>
-            <a href="" class="content__item">
-                <img src="./img/beer.jpg" alt="image" class="content__item-img">
-                <div class="content__item-title">Пиво</div>
-            </a>
-            <a href="" class="content__item">
-                <img src="./img/sal.jpg" alt="image" class="content__item-img">
-                <div class="content__item-title">Салаты</div>
-            </a>
-            <a href="" class="content__item">
-                <img src="./img/sup.jpg" alt="image" class="content__item-img">
-                <div class="content__item-title">Супы</div>
-            </a>
-            <a href="" class="content__item">
-                <img src="./img/pasta.jpg" alt="image" class="content__item-img">
-                <div class="content__item-title">Паста</div>
-            </a>
-            <a href="" class="content__item">
-                <img src="./img/des.jpg" alt="image" class="content__item-img">
-                <div class="content__item-title">Десерты</div>
-            </a>
-            <a href="" class="content__item">
-                <img src="./img/vok.jpg" alt="image" class="content__item-img">
-                <div class="content__item-title">Вок</div>
-            </a>
-            <a href="" class="content__item">
-                <img src="./img/zak.jpg" alt="image" class="content__item-img">
-                <div class="content__item-title">Закуски</div>
-            </a>
-        </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="about">
-            <h3 class="about__title">О компании</h3>
+            <h3 class="about__title  to-uppercase">ПИЦЦА «Время есть»</h3>
             <p class="about__desc">
-                Что Вам нужно, чтобы вкусно поесть? – покупка продуктов, оригинальный рецепт, долгое время на кухне и «гора» грязной посуды.
+                Пицца для гурманов: блаженство в каждом кусочке. Хотите порадовать себя и своих близких? Не хотите идти и трудиться на кухне? Пожалуй, вас может
+                порадовать ароматная и душистая, тающая во рту пицца. Время Есть – именно здесь вы можете заказать пиццу и уже через 40 минут получите это
+                произведение кулинарного искусства к себе на стол.
             </p>
             <p class="about__desc">
-                Служба доставки «Время есть» всегда придет Вам на помощь. Мы поможем сделать выбор из нашего большого меню, с любовью приготовим
-                отличную еду, и доставимее туда, где будете Вы. Мы сделаем это быстро и качественно, ведь готовить для Вас – наша любимая работа.
-            </p>
-            <p class="about__desc">
-                Все, что для этого нужно – это позвонить по телефону 700-300 или зайти на наш сайт 700300.ru, где наши операторы помогут Вам определиться
-                с выбором. Запах нашей свежей пиццы не оставит равнодушным ни одного гурмана, свежие листья салата и наша домашняя паста разбудят аппетит
-                любого привереды, а искусно приготовленные роллы из самых лучших продуктов придутся по вкусу даже Вашим детям.
-            </p>
-            <p class="about__slogan">
-                Убедитесь сами - хороший ужин, это очень просто, когда работаем Мы.
+                У нас есть совершенно разные, но абсолютно безупречные вкусы для истинных ценителей итальянской кухни. Если вы захотели чего-то легкого
+                и воздушного – попробуйте пиццу Фреско. Если классика для вас превыше всего – вас сможет порадовать Маргарита или Кватро Формаджо. А если вы стремитесь
+                не только утолить голод, но и испытать острые ощущения – Тайская пицца, а также Челентано смогут внести пикантные нотки в ваш день.
             </p>
         </div>
         <div class="footer__wrap">

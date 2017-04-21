@@ -21,6 +21,15 @@
             z-index: 5;
         }
     }
+
+    &__wrap-catalog {
+        position: relative;
+        display: flex;
+        margin: 0 auto;
+        width: 1200px;
+        margin-bottom: 25px;
+    }
+
 }
 
 .header__pizza {
