@@ -16,11 +16,16 @@
         box-shadow: rgba(98, 20, 28, 0.7) 0 0 70px 0;
         margin-right: 25px;
         color: #911526;
+        transition: all 0.4s;
 
         text-decoration: none;
 
         &:visited {
             color: #911526;
+        }
+
+        &:hover {
+            transform: translateY(-10px);
         }
 
 

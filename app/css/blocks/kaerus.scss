@@ -1,0 +1,30 @@
+.kaerus {
+    display: flex;
+    margin-top: 31px;
+    //margin-right: 114px;
+    margin-left: auto;
+
+    &__img {
+        width: 131px;
+        height: 52px;
+    }
+
+    &__link {
+        color: #ffe745;
+        width: 120px;
+        text-decoration: none;
+        font-size: 15px;
+        margin-left: 10px;
+
+        &:visited {
+            color: #ffe745;
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &:active {
+        }
+    }
+}

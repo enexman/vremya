@@ -5,4 +5,13 @@
     flex-direction: column;
     justify-content: flex-end;
     margin-top: -444px;
+
+    &__wrap {
+        width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 90px;
+        border-top: 1px solid #f8798a;
+        height: 120px;
+    }
 }

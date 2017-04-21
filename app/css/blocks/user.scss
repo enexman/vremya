@@ -1,29 +1,77 @@
 .user {
     position: relative;
-    width: 120px;
-    font-size: 28px;
+    width: 244px;
     background-color: rgba(194, 53, 43, 0.6);
-    padding-top: 62px;
-    padding-right: 44px;
-    padding-left: 81px;
+    height: 172px;
+    transition: all 0.4s;
     letter-spacing: 1.1px;
     line-height: 1.0;
-    text-decoration: none;
-    color: #fefeff;
-    height: 110px;
-    transition: all 0.4s;
 
-    &:visited {
+    &__empty {
+        width: 120px;
+        margin-top: 62px;
+        margin-right: 44px;
+        margin-left: 81px;
+        text-decoration: none;
         color: #fefeff;
+        font-size: 28px;
+        display: inline-block;
+        //display: none;
+
+        &:visited {
+            color: #fefeff;
+        }
+
+        &:hover {
+        }
+
+        &:active {
+        }
     }
 
-    &:hover {
-        background-color: rgba(194, 53, 43, 0.4);
-        box-shadow: inset rgba(255, 255, 255, 0.1) 0 0 70px 0;
+    &__wrap {
+        display: none;
+        margin-left: 81px;
     }
 
-    &:active {
-        box-shadow: inset rgba(0, 0, 0, 0.1) 0 0 20px 0;
+    &__name {
+        color: #fefeff;
+        font-size: 28px;
+        width: 120px;
+        margin-top: 45px;
+        margin-bottom: 10px;
+
+    }
+
+    &__profile {
+        position: relative;
+        color: #ffe745;
+        font-size: 13px;
+        margin-top: 0;
+        padding-bottom: 1px;
+        text-decoration: none;
+
+
+        &:visited {
+            color: #ffe745;
+        }
+
+        &:hover {
+            border-bottom: 1px solid #ffe745;
+        }
+
+        &:active {
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            height: 14px;
+            width: 14px;
+            left: 79px;
+            top: 2px;
+            background-image: url('./../img/up.png');
+        }
     }
 
     &:before {
