@@ -239,7 +239,7 @@ img {
       position: absolute;
       background-color: #cc0d28;
       left: 67px;
-      bottom: -6px; }
+      bottom: -10px; }
     .catalog-content__price::after {
       content: '';
       width: 95px;
@@ -247,7 +247,7 @@ img {
       position: absolute;
       background-color: #cc0d28;
       left: 67px;
-      bottom: 33px; }
+      bottom: 35px; }
   .catalog-content__desc {
     font-size: 14px;
     color: #191a1e;
