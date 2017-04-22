@@ -2,6 +2,7 @@
     width: 1200px;
     margin: 0 auto;
     background-color: #FFFFFF;
+    box-shadow: rgba(98, 20, 28, 0.7) 0 0 70px 0;
 
     &__menu {
         list-style: none;
@@ -51,13 +52,15 @@
     &__item {
         min-height: 468px;
         width: 300px;
-        padding: 36px 31px;
+        //padding: 36px 31px;
+        padding: 30px 31px;
         text-align: center;
         box-sizing: border-box;
         border: 1px solid #dedede;
         border-left: 1px solid transparent;
         border-top: 1px solid transparent;
         position: relative;
+        padding-bottom: 50px;
 
         &:nth-child(4n) {
             border-right: 1px solid transparent;
@@ -71,7 +74,8 @@
     &__img {
         height: 170px;
         width: 240px;
-        margin-top: 14px;
+        //margin-top: 14px;
+        margin-bottom: 19px;
     }
 
     &__title {
@@ -80,6 +84,7 @@
         margin: 0;
         margin-bottom: 17px;
         letter-spacing: 0.2px;
+        height: 53px
     }
 
     &__price {
@@ -133,6 +138,9 @@
         border-radius: 18px;
         letter-spacing: 0.6px;
         transition: all 0.4s;
+        position: absolute;
+        left: 31px;
+        bottom: 30px;
 
         &:hover {
             background-color: $color-1;
@@ -141,7 +149,7 @@
     }
 
     &__calc {
-        position: relative;
+        //position: relative;
         width: 231px;
         color: $color-1;
         font-size: 16px;
@@ -153,6 +161,9 @@
         border: 2px solid $color-1;
         border-radius: 18px;
         overflow: hidden;
+        position: absolute;
+        left: 31px;
+        bottom: 30px;
     }
 
     &__calc-less {
@@ -205,6 +216,29 @@
             left: 22px;
             top: 17px;
             transform: rotate(90deg);
+        }
+    }
+
+    &__size {
+
+    }
+
+    &__size-item {
+        font-size: 16px;
+        display: inline-block;
+        //height: 35px;
+        width: 75px;
+        border: 1px solid $color-1;
+        text-decoration: none;
+        color: $color-1;
+        font-family: Lato, Arial, sans-serif;
+        border-radius: 20px;
+        padding: 8px 0;
+
+        &--active {
+            font-weight: 700;
+            color: #FFFFFF;
+            background-color: $color-1;
         }
     }
 }

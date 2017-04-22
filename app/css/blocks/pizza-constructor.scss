@@ -1,0 +1,56 @@
+.pizza-constructor {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    color: $color-3;
+    box-shadow: rgba(98, 20, 28, 0.7) 0 0 70px 0;
+    margin-bottom: 23px;
+
+    &__info {
+        background-image: url('./../img/pizza-bg.jpg');
+        width: 448px;
+        padding-left: 48px;
+
+    }
+
+    &__title {
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 1;
+        margin-top: 44px;
+        margin-bottom: 10px;
+        letter-spacing: 3px;
+    }
+
+    &__desc {
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 21px;
+        width: 220px;
+        letter-spacing: 1.5px;
+    }
+
+    &__link {
+        position: relative;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-decoration: none;
+        display: inline-block;
+        background: linear-gradient(to top, #c7232e, #e95040);
+        border-radius: 21px;
+        width: 234px;
+        padding: 12px 0;
+        letter-spacing: 1px;
+        padding-left: 29px;
+
+        &::before {
+            content: '';
+            width: 14px;
+            height: 14px;
+            position: absolute;
+            background-image: url('./../img/up-white.png');
+            right: 24px;
+            top: 14px;
+        }
+    }
+}
