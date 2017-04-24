@@ -33,12 +33,20 @@
 
     &:before {
         content: '';
-        height: 60px;
-        width: 60px;
-        left: -77px;
-        top: 43px;
+        //height: 60px;
+        //width: 60px;
+        //left: -77px;
+        //top: 43px;
+        height: 32px;
+        width: 32px;
+        left: -64px;
+        top: 52px;
         position: absolute;
-        background-image: url('./../img/phone.png');
+        background-image: url('./../img/phone2.svg');
+
+        //@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+        //    background-image: url("http://placehold.it/320x200");
+        //}
     }
 
 }

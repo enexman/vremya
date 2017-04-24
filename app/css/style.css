@@ -293,7 +293,7 @@ img {
     left: 0;
     top: 0;
     width: 66px;
-    height: 36px;
+    height: 40px;
     background-color: #cc0d28;
     cursor: pointer; }
     .catalog-content__calc-less::before {
@@ -444,12 +444,12 @@ img {
     font-size: 14px; }
   .phone:before {
     content: '';
-    height: 60px;
-    width: 60px;
-    left: -77px;
-    top: 43px;
+    height: 32px;
+    width: 32px;
+    left: -64px;
+    top: 52px;
     position: absolute;
-    background-image: url("./../img/phone.png"); }
+    background-image: url("./../img/phone2.svg"); }
 
 .user {
   position: relative;
@@ -500,12 +500,12 @@ img {
       background-image: url("./../img/up.png"); }
   .user:before {
     content: '';
-    height: 27px;
+    height: 26px;
     width: 26px;
     left: 36px;
     top: 66px;
     position: absolute;
-    background-image: url("./../img/user.png"); }
+    background-image: url("./../img/user.svg"); }
 
 .bucket {
   font-weight: 400;
@@ -566,12 +566,12 @@ img {
       background-image: url("./../img/up.png"); }
   .bucket:before {
     content: '';
-    height: 27px;
+    height: 26px;
     width: 33px;
     left: 36px;
     top: 66px;
     position: absolute;
-    background-image: url("./../img/bucket.png"); }
+    background-image: url("./../img/bucket.svg"); }
 
 .main {
   margin: 0 auto;
@@ -791,7 +791,7 @@ img {
     left: 0;
     top: 0;
     width: 66px;
-    height: 36px;
+    height: 40px;
     background-color: #cc0d28;
     cursor: pointer; }
     .product__calc-less::before {
