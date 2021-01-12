@@ -3,8 +3,6 @@
 
 # TEAM
 
-    Murat Barkinkhoev
-    murat-bark@yandex.ru
     Magas, Russia.
 
 # THANKS
