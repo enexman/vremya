@@ -2,7 +2,7 @@
   "name": "myapp",
   "version": "0.2.0",
   "description": "Шаблон",
-  "author": "Мурат Баркинхоев",
+  "author": "",
   "devDependencies": {
     "browser-sync": "^2.11.1",
     "gulp": "^3.9.0",
